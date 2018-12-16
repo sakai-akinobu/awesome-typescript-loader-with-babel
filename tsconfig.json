@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es7",
+    ],
+    "target": "ESNext",
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+}
