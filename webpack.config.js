@@ -11,6 +11,16 @@ module.exports = {
       {
         test: /\.ts$/,
         loader: 'awesome-typescript-loader',
+        options: {
+          useBabel: true,
+          babelOptions: {
+            babelrc: false,
+            presets: [
+              '@babel/preset-env',
+            ],
+          },
+          babelCore: '@babel/core',
+        },
       },
     ],
   },
