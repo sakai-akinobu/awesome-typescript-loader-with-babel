@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    "lib": [
-      "es7",
-    ],
     "target": "ESNext",
   },
   "include": [
